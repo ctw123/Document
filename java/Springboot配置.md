@@ -21,3 +21,13 @@ public class GlobalExceptionHandler {
 }
 ```
 
+## 返回日期格式化
+
+```yaml
+spring:
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+ 
+```
+
